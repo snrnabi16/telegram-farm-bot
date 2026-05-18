@@ -145,5 +145,4 @@ bot.command("broadcast", async (ctx) => {
     return ctx.reply(`✅ Рассылка завершена!\n\nУспешно отправлено: ${successCount}\nНе удалось: ${failureCount}`);
 });
 
-console.log("Бот с базой данных и админ-панелью запущен!");
 bot.start();
