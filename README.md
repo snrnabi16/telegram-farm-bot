@@ -23,8 +23,8 @@ It also includes a subscription check mechanic (great for growing a channel) and
 
 1. Clone this repository:
 
-git clone [https://github.com/snrnabi16/telegram-farm-bot.git](https://github.com/snrnabi16/telegram-farm-bot.git)
-cd telegram-farm-bot
+- git clone [https://github.com/snrnabi16/telegram-farm-bot.git](https://github.com/snrnabi16/telegram-farm-bot.git)
+- cd telegram-farm-bot
 
 2.	Install dependencies:
 
@@ -32,18 +32,18 @@ npm install
 
 3.	Create a .env file in the root folder and add your credentials:
 
-BOT_TOKEN=your_bot_token_from_BotFather
-ADMIN_ID=your_numeric_telegram_id
+- BOT_TOKEN=your_bot_token_from_BotFather
+- ADMIN_ID=your_numeric_telegram_id
 
 4. Start the bot:
 
 node index.js
 
 🤖 Commands
-/start — Starts the game and initializes your farm;
-👨‍🌾 Моя Ферма — Check your balance, plots, and VIP status;
-🌾 Собрать урожай — Collect coins from your plots (once per minute);
-🛒 Купить грядку (50 💰) — Upgrade your farm by buying another plot;
-💎 Проверить VIP подписку — Verify your channel subscription to claim the 2x bonus;
-/broadcast <text> — Send a mass message from the bot (only works for the ADMIN_ID set in .env).
+- /start — Starts the game and initializes your farm;
+- 👨‍🌾 Моя Ферма — Check your balance, plots, and VIP status;
+- 🌾 Собрать урожай — Collect coins from your plots (once per minute);
+- 🛒 Купить грядку (50 💰) — Upgrade your farm by buying another plot;
+- 💎 Проверить VIP подписку — Verify your channel subscription to claim the 2x bonus;
+- /broadcast <text> — Send a mass message from the bot (only works for the ADMIN_ID set in .env).
 
